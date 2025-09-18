@@ -1,0 +1,25 @@
+.nameschool{
+    display:flex; 
+    text-align: center;
+}
+.mucluc{
+    text-align: center;
+    word-spacing: 10px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.left-container{
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    padding-right: 10px;
+}
+.right-container{
+    border-left: 2px solid green;
+    display: inline-block;
+    width: 20%;
+    padding-left: 50px;
+}
