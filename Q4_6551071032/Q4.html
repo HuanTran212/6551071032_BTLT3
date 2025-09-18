@@ -1,11 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <form action="" method="get">
+
+    <label for="name">
+        <p><b>Tên: </b>
+        <input type="text" id="name" name="name" required>
+        </p>
+    </label> 
+
+
+    <p><strong>Tuổi:</strong></p>
     
+    <form action="">
+        <label for="">
+            <input type="radio" name="age" required> &lt;18
+        </label> <br>
+        <label for="">
+            <input type="radio" name="age" required> 19-35
+        </label> <br>
+        <label for="">
+            <input type="radio" name="age" required> 36-48
+        </label><br>
+        <label for="">
+            <input type="radio" name="age" required> &gt;49
+        </label> <br>
+    </form>
+    
+    <form action="">
+        <label for="">
+        <p><strong>Nghề nghiệp: </strong>
+        <input type="text" required>
+        </p>
+        </label>
+    </form>
+    
+    <form action="">
+        <label for="">
+        <p>
+            <strong>Thành phố</strong>
+            <select name="country" id="" required>
+                <option value="Tp.HCM">Hồ Chí Minh</option>
+                <option value="HaNoi">Hà Nội</option>
+                <option value="Đà Nẵng">Đà Nẵng</option>
+            </select>
+        </p>
+        </label>
+    </form>
+
+    <form action="">
+        <p>
+            <strong>Sở thích:</strong>
+        </p>
+        <label for="">
+            <input type="checkbox" name="sothich" id="" required>
+            Thể thao
+        </label>
+        <label for="">
+            <input type="checkbox" name="sothich" id="" required>
+            Âm nhạc
+        </label>
+        <label for="">
+            <input type="checkbox" name="sothich" id="" required>
+            Đọc sách
+        </label>
+        <label for="">
+            <input type="checkbox" name="sothich" id="" required>
+            Du lịch
+        </label>
+    </form>
+    
+    <form action="">
+        <label for="">
+            <p><strong>Đã tìm ra trang này như thế nào:</strong></p>
+            <textarea name="ykien" cols="25" rows="4" id="" required></textarea>
+        </label>
+    </form>
+    <label for="">
+        <button type="submit">Submit (GET)</button>
+    </label>
+    </form>
 </body>
 </html>
